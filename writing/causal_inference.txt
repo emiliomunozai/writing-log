@@ -1,0 +1,21 @@
+We sometimes forget that traditional machine learning, by this we refere to more establish algorithms, 
+are powerful correlations machines. And, eventhough correlation is the main option it works until it
+dosent. The whole Idea of causal machine learning is to try and find the world models that actually 
+mediate relationships and how data is just a description of this relation. The great question is how
+do you build ML models that focus in finding this causation relationships. This entry tries to describe
+the evolution of this discipline from econometrics to current top of the line machine learning.
+
+Causation studies are as old as humans, correlation or maybe causation? the sure thing is that we are
+interesented in learning actual causes of the world around us. There is a study that ask kids about
+where does the wind comes from and its not clear when we learn about causality but they are really bad.
+Kids answer that it come from trees moving their branches, they got it backwards. But how do they learn
+afterwards?
+
+Well, we can first start describing how we, as a species, have come to understand this. Lets start with
+the pioneers in understanding this phenomena. We have economists and their econometric models, its even
+called the study of causality. <introduce explanation of econometrics>
+
+The other fine approach is using machine learning to determine causality. <introduce explanation>
+
+The question arises on how can this be useful for reinforcemnt learning.
+
