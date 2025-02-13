@@ -1,0 +1,41 @@
+Thesis Statement: Adaptive Fraud Detection in Payment Systems
+
+Fraud detection in payment systems is a complex and evolving challenge that necessitates adaptive, 
+data-driven methodologies beyond traditional supervised learning approaches. While conventional models 
+such as logistic regression, decision trees, and ensemble methods have demonstrated effectiveness, 
+they often struggle to adapt to emerging fraud patterns due to their reliance on static historical data. 
+This thesis proposes an advanced fraud detection framework that integrates Graph Convolutional Networks 
+(GCNs), Reinforcement Learning (RL), self-inferencing mechanisms, and causal inference to enhance detection 
+accuracy, adaptability, and interpretability.
+
+Key Components of the Proposed Model:
+Baseline Supervised Learning: Establishing a benchmark using traditional classification models to evaluate 
+their limitations in handling dynamic fraud patterns.
+
+Graph Convolutional Networks (GCNs): Utilizing graph-based representations to capture intricate 
+relationships between transactions, users, and devices, thereby detecting fraudulent behaviors that operate 
+within complex networks.
+
+Reinforcement Learning (RL): Implementing adaptive learning through actor-critic methods like Advantage 
+Actor-Critic (A2C) and Proximal Policy Optimization (PPO) to continuously refine fraud detection policies 
+based on real-time feedback.
+
+Self-Inferencing Mechanism: Incorporating meta-learning and online learning strategies to allow the model 
+to autonomously adjust to shifts in fraud behavior and optimize its detection performance over time.
+
+Causal Inference: Distinguishing true fraud indicators from spurious correlations using Structural Causal 
+Models (SCMs) and counterfactual reasoning, ensuring a reduction in false positives and enhanced model 
+interpretability.
+
+Progressive Evaluation Framework:
+The model's effectiveness is validated through a stepwise evaluation process, incrementally incorporating
+GCNs, RL, and causal inference to quantify their individual and combined contributions to fraud detection.
+ Metrics such as AUC-ROC, precision-recall, time-to-detect new fraud patterns, and interpretability measures 
+ are used to assess improvements over baseline models.
+
+Conclusion:
+By leveraging the synergy of GCNs, RL, self-inferencing, and causal inference, this research aims to provide 
+a robust and empirically justified solution to the challenges posed by evolving payment fraud. The proposed
+ approach not only enhances fraud detection accuracy but also ensures that the system remains adaptive to 
+ emerging threats while maintaining high interpretability. This study underscores the necessity of 
+ integrating advanced AI techniques to safeguard financial systems from sophisticated fraudulent activities.
